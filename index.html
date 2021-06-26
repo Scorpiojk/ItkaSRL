@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Itka SRL</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="../itka/index.html"><img src="images\logo_itka.png" alt=""></a>
+        </div>
+        <input type="checkbox" id="active">
+      <label for="active" class="menu-btn"></label>
+      <div class="wrapper">
+         <ul>
+            <li><a href="soluciones.html">Soluciones</a></li>
+            <li><a href="la-empresa.html">Nosotros</a></li>
+            <li><a href="trabajos-realizados.html">Trabajos Realizados</a></li>
+            <li><a href="mailto:josekolomenski@hotmail.com">Contacto</a></li>
+         </ul>
+      </div>
+    </header>
+
+    <nav>
+        <div class="slogan"></div>
+            <h2 class="slogan--text">aportamos una solucion para cada necesidad</h2>
+    </nav>
+    <nav class="home-content">
+
+        <p>Estas soluciones permiten a las empresas tener una base sólida para poder desarrollar sus proyectos con un TCO (Costo Total de Propiedad) con la menor incidencia posible en su economía.</p>
+        <h3>Soluciones que brindamos:</h3>
+            <div class="services-container">
+                <button class="services">
+                   Soporte
+                </button>
+                <ul class="collpase">
+                    <li>Cableado Estructurado, Enlaces Wireless , Circuitos de Vigilancia por camaras IP o CCTV, Fibra Óptica.</li>
+                    <li>Mantenimiento preventivo y correctivo a domicilio y en taller.</li>
+                </ul>
+            </div>
+
+            <div class="services-container">
+                <button class="services">Software</button>        
+                <ul class="collpase">
+                    <li>Venta, alquiler y reparación de Hardware , Software , Soluciones de Telecomunicaciones.</li>
+                    <li>Desarrollo e Implementación de Soluciones de Software ( ERP – CRM – BI - Integra ) Ofertando soluciones Estándar y/o adaptándolas a medida del cliente.</li>
+                </ul>
+            </div>
+
+            <div class="services-container">
+                <button class="services">Redes</button>
+                <ul class="collpase">
+                    <li>Servicios de Fusión de Fibra Optica en Campo y Medición.</li>
+                    <li>Soporte e Ingenierías en la Región Patagónica a Claro-Telmex Argentina.</li>
+                </ul>   
+            </div>                                                                                         
+    </nav>
+
+
+    <nav class="Sponsors">
+        <img src="images\socio de la camara tecnologica.jpg" alt="">
+        <img src="images\banner-itris.gif" alt="">
+    </nav>
+    
+
+    <footer>
+        <p>©2021 - Itka</p>
+        <p>Comodoro Rivadavia - Chubut</p>
+        <div>
+            <a href="https://www.instagram.com/itkaconsultores/" target="blank">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=100010041880521" target="blank">Facebook</a>
+        </div>
+        <a href="tel:0297-4473434">(0297)4473434</a>
+    </footer>
+
+    <script>
+                document.querySelectorAll(".services").forEach(button =>{
+            button.addEventListener("click", () =>{
+
+                button.classList.toggle("services--active");
+            });
+        });
+    </script>
+
+
+</body>
+</html>
